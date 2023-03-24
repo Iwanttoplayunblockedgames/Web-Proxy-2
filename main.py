@@ -1,0 +1,22 @@
+import webbot,os,time,replit,cursor
+if os.path.exists("userpass.py"):
+	os.remove("userpass.py")
+	os.remove("Replacement.py")
+	os.remove("Guest.py")
+	os.remove("guestwrite.py")
+web = webbot.Browser()
+web.go_to("https://webproxytest.neocities.org/")
+cursor.hide()
+while True:
+	print("Web Proxy Running \\")
+	time.sleep(0.1)
+	replit.clear()
+	print("Web Proxy Running |")
+	time.sleep(0.1)
+	replit.clear()
+	print("Web Proxy Running /")
+	time.sleep(0.1)
+	replit.clear()
+	print("Web Proxy Running ─")
+	time.sleep(0.1)
+	replit.clear()
